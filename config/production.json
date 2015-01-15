@@ -1,0 +1,18 @@
+{
+    "js":{
+        "src": ["./app/App.js"],
+        "destFile": "application.js",
+        "dest": "./js"
+    },
+    "scss": {
+        "src": "./scss/application.scss",
+        "dest": "./css"
+    },
+    "sass": {
+        "errLogToConsole": false,
+        "outputStyle": "compressed"
+    },
+    "uglify": {
+        "mangle": false
+    }
+}

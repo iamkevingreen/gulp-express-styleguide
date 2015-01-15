@@ -1,0 +1,25 @@
+{
+    "js":{
+        "src": ["./app/App.js"],
+        "destFile": "application.js",
+        "dest": "./js",
+        "mapsDir": "./maps",
+        "glob": "./app/**/*.js"
+    },
+    "scss": {
+        "src": "./scss/application.scss",
+        "dest": "./css",
+        "glob": "./scss/**/*.scss",
+        "mapsDir": "./maps"
+    },
+    "sass": {
+        "errLogToConsole": true,
+        "outputStyle": "nested"
+    },
+    "jshint": {
+        "lookup": false
+    },
+    "uglify": {
+        "mangle": false
+    }
+}

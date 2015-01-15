@@ -1,0 +1,50 @@
+// Specific to the style guide
+
+#style {
+  section {
+    .block {
+      border-bottom: 1px solid #eaeaea;
+    }
+
+  }
+  nav.side-nav {
+    float: left;
+    width: 200px;
+    border-right: 1px solid #eaeaea;
+    height: 100vh;
+    position: fixed;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        a {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          @include box-sizing();
+          color: #656565;
+          border-bottom: 1px solid #d9d9d9;
+          font-size: 1.2rem;
+          text-decoration: none;
+        }
+      }
+    }
+
+  }
+  h5.sub {
+    font-weight: 300;
+    color: #656565;
+    margin: 0 0 6px;
+    padding: 0;
+  }
+  .style-content {
+    float: left;
+    max-width: 75%;
+    width:100%;
+
+    padding-left: 220px;
+  }
+}
